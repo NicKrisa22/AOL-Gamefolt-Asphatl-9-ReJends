@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+nav {
+    position: fixed;
+    z-index: 8;
+    background: rgba(22, 7, 33, 0.65);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo-asptpahlt {
+    color: #F8F1F1;
+    font-size: 3vw;
+    line-height: 80px;
+    padding: 0 100px;
+    font-style: normal;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #F8F1F1;
+    font-size: 1vw;
+    padding: 7px 13px;
+    border-radius: 3;
+}
+
+a:hover {
+    background: grey;
+}
+
+/* login/register */
+.boxform{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(44, 67, 145, 0.4), rgba(104, 45, 131, 0.4)), url(/Asset/2ndbackground.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.formbox{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 10% auto;
+    background-color: rgba(228, 204, 255, 0.795);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.buttbox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1900ff60;
+    border-radius: 30px;
+}
+
+.toggle{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#loveee{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to right, #fcfcfc, #ad7fe9);
+    transition: .5s;
+}
+
+#login{
+    top: 180px;
+}
+
+.input-group{
+    top: 110px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.input-field-gender{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    font-size: 12px;
+    outline: none;
+    background: transparent;
+}
+
+.submit-love{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #E8F0FE;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 34px 0;
+}
+
+span{
+    color: rgb(190, 16, 16);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}

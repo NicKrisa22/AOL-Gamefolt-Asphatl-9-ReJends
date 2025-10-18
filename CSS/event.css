@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+/* navigation-bar */
+nav {
+    position: fixed;
+    z-index: 8;
+    background: rgba(22, 7, 33, 0.65);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo-asptpahlt{
+    color: #F8F1F1;
+    font-size: 3vw;
+    line-height: 80px;
+    padding: 0 100px;
+    font-style: normal;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #F8F1F1;
+    font-size: 1vw;
+    padding: 7px 13px;
+    border-radius: 3;
+}
+
+a:hover {
+    background: grey;
+}
+
+/* header */
+.head {
+    padding-top: 20vw;
+    padding-left: 10vw;
+    padding-bottom: 30vw;
+    background-image: url(/Asset/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 3vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 10px;
+}
+
+.head h1 {
+    margin-top: 100px; 
+    color: #FFFFFF; 
+    text-align: center; 
+}
+
+
+.aboutas {
+    position: absolute;
+    top: 50%; 
+    left: 5%; 
+    transform: translateY(-50%); 
+    font-size: 1.5vw; 
+    z-index: 2; 
+    color: white;
+    margin-top: 2%;
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.aboutas h2 {
+    margin: 0; 
+    padding: 5px 0; 
+}
+
+.desc{
+    margin-top: 2%;
+    font-size: 1vw;
+    line-height: 1.5;
+}
+
+.isi {
+    font-size: 1.2vw; 
+}
+.secondhead{
+    padding-top: 20vw;
+    padding-left: 0vw;
+    padding-bottom: 30vw;
+    background-image: linear-gradient(rgba(34, 31, 31, 0.74), rgba(104, 45, 131, 0.4));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 3vw;
+    height: 70vh; 
+    
+    
+    padding-top: 10px;
+}
+
+.title {
+    font-size: 2vw;
+    color: rgb(56, 22, 95);
+    text-align: center;
+    padding-top: 130px;
+}
+
+.note {
+    font-size: 1.5vw;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#classlist {
+    font-size: 1.5vw;
+    color: black;
+    margin-top: 5vw;
+    margin-left: 15vw;
+}
+
+#boxbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+    border: 1px solid rgb(110, 42, 119);
+    transition: 0s;
+    margin: 20px;
+}
+
+.card iframe {
+    width: 100%;
+}
+
+.card div {
+    padding: 12px;
+}
+
+.secondbody{
+    padding-top: 0vw;
+    padding-left: 0vw;
+    padding-bottom: 0vw;
+    background-image: linear-gradient(rgba(142, 112, 153, 0.74), rgba(104, 45, 131, 0.4));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 3vw;
+    height: auto; 
+}
+
+.event-details {
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(34, 31, 31, 0.74), rgba(104, 45, 131, 0.4));
+    color: #F8F1F1;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.event-details h2 {
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.detail {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.detail h3 {
+    font-size: 1.5vw;
+}
+
+.detail p {
+    font-size: 1.2vw;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.sponsors img {
+    width: 10%;
+    height: 10%;
+    margin: 50px;
+    transition: transform 0.3s;
+}
+
+.sponsors img:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+footer {
+    background-color: rgba(22, 7, 33);
+}
+
+.footer-box{
+    margin-top: 0px;
+    width: 100%;
+    height: 20vw;
+}
+
+.merge{
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms{
+    color: white;
+    margin-top: 2%;
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.terms-1{
+    margin-top: 2%;
+    font-size: 1vw;
+    line-height: 1.5;
+}
+
+.contact{
+    color: white;
+    margin-top: 2%;
+    width: 33%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1vw;
+}
+
+.logo{
+    margin-top: 2%;
+    display: flex;
+}
+
+.logo-1{
+    width: 20%;
+    margin-right: 1%;
+}
+
+
+.logo a img{
+    width: 50%;
+}
+
+.copyright{
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 1vw;
+}
